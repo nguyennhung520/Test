@@ -1,0 +1,113 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nav .nav-home {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #191718;
+  width: 15%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+  
+.nav .li-nav-home a {
+  display: block;
+  color: #AAAAAA;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+}
+  
+  /* Change the link color on hover */
+.nav .li-nav-home  a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.main .text-main{
+  margin-left:20%;
+  padding:1px 16px;
+}
+
+.main .text-main .logo img{
+  margin-left: 20rem;
+  margin-right: 10rem;
+  width: 310px;
+  height: 112px;
+}
+
+.main .text-box {
+  background-color: #EFEFEF;
+  width: 1510;
+  height: 210px;
+  margin-top: 5px;
+}
+
+.main .text-box .text-box-title{
+  text-align: center;
+  padding: 25px 8px;
+}
+
+.main .text-box .text-box-small {
+  text-align: center;
+}
+
+.main .box {
+  display: flex;
+  margin-top: 20px;
+}
+.main .box .boxCSS {
+  flex: 1 1 auto;
+  overflow: auto;
+  width: 200px;
+  height: 250px;
+}
+.main .box .boxCSS .imgCSS{
+  float: left;
+}
+
+.main .box .boxHTML {
+  flex: 1 1 auto;
+  overflow: auto;
+  width: 200px;
+  height: 250px;
+}
+.main .box .boxHTML .imgHTML{
+  float: left;
+}
+.main .box .boxURL {
+  flex: 1 1 auto;
+  overflow: auto;
+  width: 200px;
+  height: 250px;
+}
+.main .box .boxURL .imgURL{
+  float: left;
+}
+
+.main .head-text {
+  margin: 10px 5px;
+}
+
+.footer{
+  margin-left:20%;
+  padding:1px 16px;
+  margin-top: 4rem;
+  color: #3E3E3E;
+}
